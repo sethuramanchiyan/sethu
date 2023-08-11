@@ -1,0 +1,305 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.head i
+{
+    font-size: 30px;
+    color: hsl(354.23deg 42.28% 51.76%);
+    margin-right: 10px;
+    
+}
+.head
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.video
+{
+    color: hsl(354.23deg 42.28% 51.76%);
+}
+.store
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul
+{
+    
+    display: flex;
+    align-items: center;
+}
+li
+{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.buy
+{
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-color: white;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.online
+{
+    background-image: url(background1.project1.jpeg);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.man
+{
+    font-family: sans-serif;
+}
+.onlinee h1
+{
+    font-weight: 900;
+    font-size: 55px;
+    margin-left: 200px;
+    margin-top: 500px;
+}
+.onlin p
+{
+    font-size: 55px;
+}
+.onlin
+{
+    display: flex;
+    flex-direction: row;
+}
+.onlin span
+{
+    font-size: 55px;
+    font-weight: 850;
+    color: hsl(356.55deg 98.86% 65.49%);
+    margin-left: 10px;
+}
+.onl p
+{
+    font-size: 20px;
+}
+.shop
+{
+    background-color: hsl(356.55deg 98.86% 65.49%);
+    border-color: hsl(356.55deg 98.86% 65.49%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.cart
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    font-family: sans-serif;
+    
+}
+.car p
+{
+    margin-top: 100px;
+    font-size: 25px;
+   
+}
+.ca h1
+{
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+.contain
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+
+}
+.one
+{
+    width: 380px;
+    height: 380px;
+    background: transparent;
+    margin-right: 20px;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+.sm
+{
+    text-decoration: line-through;
+}
+.three
+{
+    width: 380px;
+    height: 380px;
+    margin-right: 20px;
+}
+.brown
+{
+    position: relative;
+    font-family: sans-serif;
+    
+}
+.brown p
+{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.green
+{
+    position: absolute;
+    color: #44f7b3;
+    bottom: 60px;
+    right: 20px;
+    font-size: 30px;
+    
+}
+.discount
+{
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    right: 10px;
+    padding: 5px 10px;
+}
+.green h4
+{
+    font-weight: 60;
+}
+.bottle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+img
+{
+    height: 380px;
+    width: 380px;
+}
+.just
+{
+    width: 350px;
+    margin-right: 30px;
+}
+.red
+{
+   
+    font-size: 40px;
+    color: #ffa0a4;
+    
+}
+.just i
+{
+    
+    font-size: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient(45deg, #ffa0a4, #a38dfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer
+{
+    background-image: url(ffooter\ image.jpeg);
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.foot
+{
+    display: flex;
+
+}
+.template
+{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.icon
+{
+    margin-right: 15px;
+}
+.facebook
+{
+    margin-left: 100px;
+    padding-top: 60px;
+    line-height: 2;
+    
+}
+small
+{
+    margin-left: 10px;
+}
+.cards
+{
+    margin-left: 200px;
+    padding-top: 60px;
+    width: 300px;
+}
+.mobi
+{
+    color: #fe525b;
+}
+.foot ul
+{
+    display: flex;
+}
+.cards li, img
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+}
+
