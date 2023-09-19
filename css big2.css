@@ -1,0 +1,714 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+header i
+{
+    margin-right: 70px;
+}
+.fut
+{
+    margin-left: 70px;
+    font-family: Ubuntu,sans-serif;
+}
+.future
+{
+    display: flex;
+}
+.headone
+{
+    background-image: url(back\ head.jpeg);
+    background-size: cover;
+    height: 800px;
+    width: 50%;
+    text-align: left;
+}
+.blue
+{
+    background-color: hsl(184.57deg 47.95% 57.06%);
+    width: 45%;
+}
+.grey
+{
+    background-color: hsl(202.5deg 17.78% 82.35%);
+    width: 5%;
+}
+.techno
+{
+    border: 5px solid white;
+    height: 370px;
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    padding: 20px;
+    
+}
+
+.techno h1
+{
+    font-size: 60px;
+    line-height: 1.5;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 900;
+}
+.techno p
+{
+    font-size: 25px;
+    line-height: 2.0;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.robo
+{
+    display: flex;
+}
+.robotic
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    line-height: 1.5;
+    width: 50%;
+    padding: 30px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+.robotic h2
+{
+    color: #808080;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Ubuntu,sans-serif;
+}
+.robotic h1
+{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Ubuntu,sans-serif;
+}
+.robotic p
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: Open Sans,sans-serif;
+}
+.robotic b
+{
+    font-weight: 700;
+    font-family: Open Sans,sans-serif;
+}
+.read
+{
+    font-style: italic;
+    text-align: center;
+    padding: 15px 25px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-color: #17cad0;
+    background-color: white;
+}
+.roimagess
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.roimag
+{
+    background-image: url(2nd\ head.jpeg);
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.roimage
+{
+    background-image: url(image\ 3\ hand.jpeg);
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+.whitesmall
+{
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    bottom: 10px;
+    right: 70px;
+    background-color: white;
+    border: 1px solid white;
+}
+.bluebox
+{
+    position: absolute;
+    height: 200px;
+    width: 30px;
+    right: 80px;
+    border: 1px solid;
+    background-color: #17cad0;
+    border-color: #17cad0;
+    bottom: -80px;
+}
+.futurecar
+{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+.technology
+{
+    display: flex;
+    padding-top: 100px;
+    border: 1px solid #17cad0;
+    padding: 20px;
+    width: 30%;
+    margin-left: 100px;
+    background-color: #17cad0;
+    color: white;
+    position: relative;
+}
+.technology p
+{
+    line-height: 1.7;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+}
+.technology h1
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Ubuntu,sans-serif;
+    
+}
+
+.tech
+{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.bulb i
+{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.carr
+{
+    display: flex;
+    width: 30%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.carpic i
+{
+font-size: 50px;
+margin-right: 30px;
+margin-top: 100px;
+color: #17cad0;
+}
+.car p
+{
+    line-height: 1.7;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+}
+.car h1
+{
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Ubuntu,sans-serif;
+}
+.robotsal
+{
+    display: flex;
+    width: 30%;
+    margin-bottom: 50px;
+
+}
+.rob i
+{
+    font-size: 50px;
+    margin-right: 30px;
+    margin-top: 100px;
+    color: #17cad0;
+}
+.ro h1
+{
+    margin-bottom: 40px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Ubuntu,sans-serif;
+}
+.ro p
+{
+    line-height: 1.7;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+}
+.black
+{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    left: 50px;
+    bottom: -60px;
+    background-color: black;
+    border: 1px solid black;
+}
+.sleep
+{
+    width: 50%;
+    height: 10px;
+    margin-left: 850px;
+    border: 1px solid;
+    background-color: #17cad0;
+    margin-top: 100px;
+    border-color: #17cad0;
+}
+.train
+{
+    width: 700px;
+    margin-left: 100px;
+    height: 700px;
+    margin-top: 50px;
+}
+.train img
+{
+    height: 700px;
+    width: 700px
+}
+.transport
+{
+    display: flex;
+    margin-bottom: 80px;
+}
+.tesla
+{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+    line-height: 1.5;
+    font-family: Ubuntu,sans-serif;
+
+}
+.tesla h2
+{
+    font-size: 25px;
+    color: #808080;
+    font-weight: 600;
+    line-height: 2;
+}
+.tesla h1
+{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.tesla strong
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.tesla p
+{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.carsuper
+{
+    display: flex;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+.carsuper img
+{
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.parent
+{
+    display: flex;
+}
+.bigblack
+{
+    padding: 50px;
+    line-height: 1.5;
+    width: 50%;
+    color: white;
+    background-color: black;
+}
+.bigblack h1
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 600;
+}
+.bigblack p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+}
+.bigblue
+{
+    background-color: #17cad0;
+    width: 50%;
+    position: relative;
+}
+.robocoming
+{
+    font-family: 'Open Sans',sans-serif;
+    text-align: right;
+    padding: 10px;
+    border: 5px solid white;
+    position: absolute;
+    color: white;
+    top: 200px;
+    right: 60px;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 50px;
+
+}
+.robocoming h1
+{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+.robocoming p
+{
+    font-size: 25px;
+    line-height: 1.5;
+}
+.gadge
+{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.gadge img
+{
+    width: 350px;
+    height: 350px;
+}
+.biggad
+{
+    display: flex;
+    
+}
+.eyee
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+.wat
+{
+    display: flex;
+}
+.eye, .hands
+{
+    margin-right: 30px;
+}
+.gadfuture
+{
+    margin-top: 150px;
+    width: 600px;
+    margin-left: 50px;
+    text-align: left;
+}
+.gadfuture h3
+{
+    color: #808080;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Ubuntu,sans-serif;
+    margin-bottom: 20px;
+}
+.gadfuture h1
+{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Ubuntu,sans-serif;
+    margin-bottom: 50px;
+}
+.gadfuture p, b
+{
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.8;
+}
+.gadfuture b
+{
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.gadfuture p
+{
+    margin-top: 30px;
+}
+.hands
+{
+    position: relative;
+}
+.sb
+{
+    position: absolute;
+}
+.white
+{
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    background-color: white;
+    bottom: 10px;
+    left: 30px;
+}
+.sky
+{
+    position: absolute;
+    width: 30px;
+    height: 200px;
+    background-color: #17cad0;
+    bottom: -70px;
+    left: 40px;
+}
+.mains
+{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    color: white;
+    position: relative;
+}
+.mains h1
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 200px;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 100px;
+}
+.mai
+{
+    margin-bottom: 20px;
+}
+.mains p
+{
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 450px;
+    width: 60%;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+}
+.seablue
+{
+    width: 170px;
+    height: 10px;
+    position: absolute;
+    left: 200px;
+    top: 220px;
+    background-color: #17cad0;
+}
+.seablue2
+{
+    width: 20px;
+    height: 200px;
+    position: absolute;
+    background-color: #17cad0;
+    right: 150px;
+    bottom: -100px;
+}
+.www
+{
+    display: flex;
+    padding: 80px;
+}
+.auto
+{
+    width: 300px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 0px solid transparent;
+}
+.auto p
+{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.5;
+}
+.auto h1
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 600;
+}
+.comey
+{
+    display: flex;
+    background-color: #f7fcfc;
+}
+.james
+{
+    width: 50%;
+}
+.james p
+{
+    color: #17cad0;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 500px;
+    font-family: 'Open Sans',sans-serif;
+}
+.james h1
+{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+.kitchen
+{
+    width: 900px;
+    height: 750px;
+    padding-right: 100px;
+    width: 50%;
+    padding: 50px 0;
+
+}
+.kitchen img
+{
+    width: 700px;
+    height: 600px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    padding: 30px;
+    line-height: 2.0;
+    text-align: center;
+}
+footer i
+{
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #17cad0;
+}
+footer h1
+{
+    color: #17cad0;
+    font-size: 30px;
+    font-weight: 500;
+}
+footer p
+{
+    color: #808080;
+}
